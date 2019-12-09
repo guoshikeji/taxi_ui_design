@@ -13,7 +13,7 @@
 2、git clone https://github.com/guoshikeji/UiDesign
 ```
 ##### 功能点：
-1、出租车(#三级标题)
+1、[出租车](#三级标题)
 2、网约车（快车）
 3、代驾
 4、闪电送
@@ -23,3 +23,8 @@
 8、商家红包中心
 
 ### 出租车
+#### 第一步：选择使用模式及确认起点、终点（此例：立即用车）
+![](cxjPassengerDesign/travellingMode/taxi&net_car/01Taxi.png "Taxi：now") ![](cxjPassengerDesign/travellingMode/taxi&net_car/01BookATaxi.png "Taxi：book") 
+
+    在出租车初始页面，有多种使用模式可以选择，包括有立即用车、预约、接机、送机、代叫，满足用户出行的更加具体的需求，用户填上具体条件，即可呼叫出租车；
+ 
