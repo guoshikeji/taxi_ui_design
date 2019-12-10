@@ -69,4 +69,21 @@
 
 ### 网约车
 ###### 网约车与出租车的使用方式基本一致，以下将列举完成的的不同点
-#### 一、多种车型
+#### · 多种车型
+![](cxjPassengerDesign/travellingMode/taxi&net_car/02VariousTypesOfNet_car.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/taxi&net_car/02EstimatedFeeDetails.png "Taxi：Service Evaluatio") 
+
+乘客在呼叫网约车时，可选择不同车型，不同车型的计价也有不同，平台会根据起终点给出相应的费用预估；
+
+
+#### · 计价方式
+![](cxjPassengerDesign/travellingMode/taxi&net_car/04OnlinePayment(net_car).png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/taxi&net_car/03_01DriveToDestination(net_car).png "Taxi：Service Evaluatio") 
+
+网约车采取线上计费方式，线上提供计费细则；支付方式只保留线上支付；
+
+
+
+
+
+
+
+
