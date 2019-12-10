@@ -28,7 +28,8 @@
 
 在出租车初始页面，有多种使用模式可以选择，包括有立即用车、预约、接机、送机、代叫，满足用户出行的更加具体的需求
 用户只要填上相应的条件，即可呼叫出租车；
- 
+
+
  
 #### 第二步：呼叫出租车，等待出租车司机应答
 ![](cxjPassengerDesign/travellingMode/taxi&net_car/02CallaTaxi.png "Taxi：will call") ![](cxjPassengerDesign/travellingMode/taxi&net_car/02CallingTaxis.png "Taxi：calling") 
@@ -45,10 +46,12 @@
 如司机久等乘客未至，或姗姗来迟，平台会向用户收取一定的等待费用，用于司机空等的补偿；
 
 
+
 #### 第四步：前往乘客终点
 ![](cxjPassengerDesign/travellingMode/taxi&net_car/03_01DriveToDestination(taxi).png "Taxi：will call") ![](cxjPassengerDesign/travellingMode/taxi&net_car/03_00ChooseRoutes.png "Taxi：calling") 
 
 乘客上车后，司机开往乘客设定的终点，途中乘客可以根据自己的需求，更换自己要到达的终点和行驶的路线；
+
 
 
 #### 最后：支付和评价
@@ -56,3 +59,4 @@
 
 乘客到达终点后，乘客可以选择现金支付或线上支付，完成支付后，乘客可以继续评价此次乘车的服务，评价会影响司机在
 平台服务评分；
+
