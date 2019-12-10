@@ -26,5 +26,13 @@
 #### 第一步：选择使用模式及确认起点、终点（此例：立即用车）
 ![](cxjPassengerDesign/travellingMode/taxi&net_car/01Taxi.png "Taxi：now") ![](cxjPassengerDesign/travellingMode/taxi&net_car/01BookATaxi.png "Taxi：book") 
 
-    在出租车初始页面，有多种使用模式可以选择，包括有立即用车、预约、接机、送机、代叫，满足用户出行的更加具体的需求，用户填上具体条件，即可呼叫出租车；
+在出租车初始页面，有多种使用模式可以选择，包括有立即用车、预约、接机、送机、代叫，满足用户出行的更加具体的需求
+用户只要填上相应的条件，即可呼叫出租车；
  
+#### 第二步：呼叫出租车，等待出租车司机应答
+![](cxjPassengerDesign/travellingMode/taxi&net_car/02CallaTaxi.png "Taxi：will call") ![](cxjPassengerDesign/travellingMode/taxi&net_car/02CallingTaxis.png "Taxi：calling") 
+
+呼叫出租车时，用户可以通过添加小费来获得出租车司机更快的接单；用户选择拼车，在出行高峰期时，可以更加容易打到车，
+也充分的利用出行资源；用户添加备注，减少服务时造成不必要的麻烦；
+#### 第三步：前往乘客终点
+![](cxjPassengerDesign/travellingMode/taxi&net_car/03_01DriveToDestination(taxi).png "Taxi：will call") ![](cxjPassengerDesign/travellingMode/taxi&net_car/03_00ChooseRoutes.png "Taxi：calling") 
