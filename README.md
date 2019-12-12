@@ -22,6 +22,7 @@
 7、[代步券](#代步券)
 8、[商家红包中心](#商家红包中心)
 
+---
 ### 出租车
 #### 第一步：选择使用模式及确认起点、终点（此例：立即用车）
 ![](cxjPassengerDesign/travellingMode/taxi&net_car/01Taxi.png "Taxi：now") ![](cxjPassengerDesign/travellingMode/taxi&net_car/01BookATaxi.png "Taxi：book") 
@@ -67,6 +68,7 @@
     用户的线上支付方式，现可支持支付宝、微信支付、银联支付，和平的钱包支付；
     免单支付：乘客只需向钱包充值平台规定的金额，此次乘车即可免单；
 
+---
 ### 网约车
 ###### 网约车与出租车的使用方式基本一致，以下将列举完成的的不同点
 #### · 多种车型
@@ -80,6 +82,7 @@
 
 网约车采取线上计费方式，线上提供计费细则；支付方式只保留线上支付；
 
+---
 ### 代驾
 #### 代驾模式
 ![](cxjPassengerDesign/travellingMode/designatedDriver/DesignatedDriver.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/CallADriver.png "Taxi：Service Evaluatio") 
@@ -100,6 +103,7 @@
     
     追加的额外费用：过路费、过桥费等
  
+ ---
 ### 闪电送
 #### 闪电送模式
 ![](cxjPassengerDesign/travellingMode/FastDelivery/BookFastDelivery.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/FastDelivery/TypeOfGoods.png  "Taxi：Service Evaluatio") 
@@ -123,17 +127,41 @@
 
 当接单司机处在取件和配送状态时，发单用户可实时查看司机位置；配送时，平台将会向收货人的电话号码发送带有收货码的短信；
 收货人签收货物时，向司机告知收货码，司机验证无误后，即为完成签收；
+---
+## 商家模块
+#### 商家中心
+![](cxjPassengerDesign/merchantPart/BusinessCenter.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/DisplayPage.png  "Taxi：Service Evaluatio") 
+用户通过认证商家后，即可进入商家中心，商家中心包括广告、活动、展示等管理功能；
 
-### 商家模块
+#### 活动
+
+商家可选择开启消费返利活动或报销车费，以此来吸引用户到店消费等；
+    
+    乘客在商家主页中选择前往商家，即可获得一个活动码；
+    消费返利活动商家：乘客到店消费后，可根据乘客消费情况，使用活动码找商家进行返利；
+    报销车费活动商家：乘客满足商家要求后，根据乘客到店使用的打车费用和报销上限，使用活动码找商家进行报销；
+    
+
 
 ### 优惠券
 
+
+优惠券是通过平台发布给乘客的，用户可用于出租线上支付/快车/闪电送/代驾/顺风车等出行及扩展业务；
+
+    优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
+
 ### 代步券
+
+代步券是通商家通过手机号指定发给其他用户的，适用范围与优惠券一致，不过无额度限制，且使用期限为365天；
+商家可在商家中心进行代步券额度充值；
+
 
 ### 商家红包中心
 
-
-
+商家可以在地图上指定区域投红包广告，商家可自主设置红包广告的所有相关参数；红包是无法直接领取，需完成分享助力任务；
+广告审核通过后，商家可实时查看广告红包的领取状态；
+    
+    相关参数：红包个数，总金额，拼手气或固定额度，投放点，区域大小、广告图、广告词，投放时间等；
 
 
 
