@@ -15,12 +15,12 @@
 ##### 功能点：
 1、[出租车](#出租车)
 2、[网约车](#网约车)（快车）
-3、代驾
-4、闪电送
-5、商家模块
-6、优惠券
-7、代步券
-8、商家红包中心
+3、[代驾](#代驾)
+4、[闪电送](#闪电送)
+5、[商家模块](#商家模块)
+6、[优惠券](#优惠券)
+7、[代步券](#代步券)
+8、[商家红包中心](#商家红包中心)
 
 ### 出租车
 #### 第一步：选择使用模式及确认起点、终点（此例：立即用车）
@@ -79,6 +79,58 @@
 ![](cxjPassengerDesign/travellingMode/taxi&net_car/04OnlinePayment(net_car).png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/taxi&net_car/03_01DriveToDestination(net_car).png "Taxi：Service Evaluatio") 
 
 网约车采取线上计费方式，线上提供计费细则；支付方式只保留线上支付；
+
+### 代驾
+#### 代驾模式
+![](cxjPassengerDesign/travellingMode/designatedDriver/DesignatedDriver.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/CallADriver.png "Taxi：Service Evaluatio") 
+
+在代驾的初始页面，有三种使用模式可以选择，分别是现在、预约、代叫，满足用户更加具体的需求
+用户填上相应的条件后，进入呼叫页面，在该页面展示了此次代驾服务所需的价钱，亦可添加备注和小费；
+ 
+ #### 呼叫代驾
+ ![](cxjPassengerDesign/travellingMode/designatedDriver/OnlinePayment.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/calling.png  "Taxi：Service Evaluatio") 
+
+代驾服务采取先付费，后叫司机的模式，如呼叫无果，平台将立即返还乘客的付费；
+ 
+#### 代驾状态
+ ![](cxjPassengerDesign/travellingMode/designatedDriver/driving01.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/driving02.png  "Taxi：Service Evaluatio") 
+
+呼叫代驾司机成功后，代驾司机在规定时间点到达起点，若用户超过允许时间未到达代驾点，用户需向代驾司机支付额外的等待费用。
+司机将车驾驶到终点后，乘客向司机支付完额外费用,此次代驾服务即为结束；事后用户可追加评价
+    
+    追加的额外费用：过路费、过桥费等
+ 
+### 闪电送
+#### 闪电送模式
+![](cxjPassengerDesign/travellingMode/FastDelivery/BookFastDelivery.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/FastDelivery/TypeOfGoods.png  "Taxi：Service Evaluatio") 
+
+闪电送：网约车/出租车提供服务的非超远距离的送货服务；在闪电送中，用户存在两种角色的可能，
+分别为：收货人（帮我取）、发货人（帮我送）；使用模式分即时和预约；
+
+    用户须填写详细的/发货人的地址和电话号码；
+    
+#### 发布订单
+![](cxjPassengerDesign/travellingMode/FastDelivery/ChooseDeliveryTypes.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/FastDelivery/OnlinePayment.png  "Taxi：Service Evaluatio") 
+
+用户在发布订单前，可选择送货方式和添加小费；完成运费预付，即成功发单，用户只需等待司机接单即可；
+    
+    闪电快达：有严格的送达时间要求，且多用时较短，与网约车相似，价格也差不多；
+    顺路送达：送达时间相对宽松，价格相对闪电快达便宜很多；
+
+    
+#### 快递状态
+![](cxjPassengerDesign/travellingMode/FastDelivery/Calling.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/FastDelivery/Delivering.png  "Taxi：Service Evaluatio") 
+
+当接单司机处在取件和配送状态时，发单用户可实时查看司机位置；配送时，平台将会向收货人的电话号码发送带有收货码的短信；
+收货人签收货物时，向司机告知收货码，司机验证无误后，即为完成签收；
+
+### 商家模块
+
+### 优惠券
+
+### 代步券
+
+### 商家红包中心
 
 
 
