@@ -34,6 +34,7 @@
 * [收钱吧](#收钱吧)
 
 ![](cxjPassengerDesign/HomePage.png "Taxi：now")
+
 乘客端首页构成：每日签到、banner广告、各项业务的快捷入口、未完结订单实时状态、顺风车路线模块、附近带活动商家推送
 
 ---
