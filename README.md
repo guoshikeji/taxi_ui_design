@@ -127,41 +127,52 @@
 
 当接单司机处在取件和配送状态时，发单用户可实时查看司机位置；配送时，平台将会向收货人的电话号码发送带有收货码的短信；
 收货人签收货物时，向司机告知收货码，司机验证无误后，即为完成签收；
+
 ---
 ## 商家模块
 #### 商家中心
 ![](cxjPassengerDesign/merchantPart/BusinessCenter.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/DisplayPage.png  "Taxi：Service Evaluatio") 
+
 用户通过认证商家后，即可进入商家中心，商家中心包括广告、活动、展示等管理功能；
 
 #### 活动
+![](cxjPassengerDesign/merchantPart/Promotion.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/Rebate.png  "Taxi：Service Evaluatio") 
 
-商家可选择开启消费返利活动或报销车费，以此来吸引用户到店消费等；
+商家可选择开启消费返利活动或报销车费，以此来吸引用户到店消费等；乘客在商家主页中选择前往商家，即可获得一个活动码；
     
-    乘客在商家主页中选择前往商家，即可获得一个活动码；
     消费返利活动商家：乘客到店消费后，可根据乘客消费情况，使用活动码找商家进行返利；
     报销车费活动商家：乘客满足商家要求后，根据乘客到店使用的打车费用和报销上限，使用活动码找商家进行报销；
     
-
-
 ### 优惠券
-
+![](cxjPassengerDesign/merchantPart/Coupons.png "Taxi：OnlinePayment")![](cxjPassengerDesign/travellingMode/taxi&net_car/04UseCoupons.png  "Taxi：Service Evaluatio") 
 
 优惠券是通过平台发布给乘客的，用户可用于出租线上支付/快车/闪电送/代驾/顺风车等出行及扩展业务；
 
     优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
 ### 代步券
+![](cxjPassengerDesign/merchantPart/GiftVoucher.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/ExemptionVoucher.png  "Taxi：Service Evaluatio") 
 
 代步券是通商家通过手机号指定发给其他用户的，适用范围与优惠券一致，不过无额度限制，且使用期限为365天；
 商家可在商家中心进行代步券额度充值；
 
 
 ### 商家红包中心
+#### 投放
+![](cxjPassengerDesign/merchantPart/Advertising.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/AdvertisementDetail.png  "Taxi：Service Evaluatio") 
 
-商家可以在地图上指定区域投红包广告，商家可自主设置红包广告的所有相关参数；红包是无法直接领取，需完成分享助力任务；
+商家可以在地图上指定区域投红包广告，商家可自主设置红包广告的所有相关参数；
 广告审核通过后，商家可实时查看广告红包的领取状态；
     
     相关参数：红包个数，总金额，拼手气或固定额度，投放点，区域大小、广告图、广告词，投放时间等；
+
+#### 领取
+![](cxjPassengerDesign/merchantPart/RedPacket.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/RedPacketSharing.png  "Taxi：Service Evaluatio") 
+
+红包是无法直接领取，需完成分享助力任务；
+
+    
+    
 
 
 
