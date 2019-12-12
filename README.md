@@ -11,16 +11,30 @@
 ```
 1、安装Git软件
 2、git clone https://github.com/guoshikeji/UiDesign
+
 ```
-##### 功能点：
-1、[出租车](#出租车)
-2、[网约车](#网约车)（快车）
-3、[代驾](#代驾)
-4、[闪电送](#闪电送)
-5、[商家模块](#商家模块)
-6、[优惠券](#优惠券)
-7、[代步券](#代步券)
-8、[商家红包中心](#商家红包中心)
+#### 乘客端：
+* [出租车](#出租车)
+* [网约车（快车）](#网约车)
+* [代驾](#代驾)
+* [闪电送](#闪电送)
+* [商家模块](#商家模块)
+* [代步券](#代步券)
+* [商家红包中心](#商家红包中心)
+* [优惠券](#优惠券)
+#### 司机端：
+* [多种订单](#多种订单)
+    * 快车
+    * 出租车
+    * 闪电送
+    * 代驾
+* [自定义设置](#自定义设置)
+* [深色模式](#深色模式)
+* [服务时长](#服务时长)
+* [收钱吧](#收钱吧)
+
+![](cxjPassengerDesign/HomePage.png "Taxi：now")
+乘客端首页构成：每日签到、banner广告、各项业务的快捷入口、未完结订单实时状态、顺风车路线模块、附近带活动商家推送
 
 ---
 ### 出租车
@@ -131,27 +145,21 @@
 ---
 ## 商家模块
 #### 商家中心
-![](cxjPassengerDesign/merchantPart/BusinessCenter.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/DisplayPage.png  "Taxi：Service Evaluatio") 
+![](cxjPassengerDesign/merchantPart/BusinessCenter.png "Taxi：OnlinePayment")  ![](cxjPassengerDesign/merchantPart/DisplayPage.png  "Taxi：Service Evaluatio") 
 
 用户通过认证商家后，即可进入商家中心，商家中心包括广告、活动、展示等管理功能；
 
 #### 活动
-![](cxjPassengerDesign/merchantPart/Promotion.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/Rebate.png  "Taxi：Service Evaluatio") 
+![](cxjPassengerDesign/merchantPart/Promotion.png "Taxi：OnlinePayment")  ![](cxjPassengerDesign/merchantPart/Rebate.png  "Taxi：Service Evaluatio") 
 
 商家可选择开启消费返利活动或报销车费，以此来吸引用户到店消费等；乘客在商家主页中选择前往商家，即可获得一个活动码；
     
     消费返利活动商家：乘客到店消费后，可根据乘客消费情况，使用活动码找商家进行返利；
     报销车费活动商家：乘客满足商家要求后，根据乘客到店使用的打车费用和报销上限，使用活动码找商家进行报销；
     
-### 优惠券
-![](cxjPassengerDesign/merchantPart/Coupons.png "Taxi：OnlinePayment")![](cxjPassengerDesign/travellingMode/taxi&net_car/04UseCoupons.png  "Taxi：Service Evaluatio") 
-
-优惠券是通过平台发布给乘客的，用户可用于出租线上支付/快车/闪电送/代驾/顺风车等出行及扩展业务；
-
-    优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
 ### 代步券
-![](cxjPassengerDesign/merchantPart/GiftVoucher.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/ExemptionVoucher.png  "Taxi：Service Evaluatio") 
+![](cxjPassengerDesign/merchantPart/GiftVoucher.png "Taxi：OnlinePayment")  ![](cxjPassengerDesign/merchantPart/ExemptionVoucher.png  "Taxi：Service Evaluatio") 
 
 代步券是通商家通过手机号指定发给其他用户的，适用范围与优惠券一致，不过无额度限制，且使用期限为365天；
 商家可在商家中心进行代步券额度充值；
@@ -159,7 +167,7 @@
 
 ### 商家红包中心
 #### 投放
-![](cxjPassengerDesign/merchantPart/Advertising.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/AdvertisementDetail.png  "Taxi：Service Evaluatio") 
+![](cxjPassengerDesign/merchantPart/Advertising.png "Taxi：OnlinePayment")  ![](cxjPassengerDesign/merchantPart/AdvertisementDetail.png  "Taxi：Service Evaluatio") 
 
 商家可以在地图上指定区域投红包广告，商家可自主设置红包广告的所有相关参数；
 广告审核通过后，商家可实时查看广告红包的领取状态；
@@ -170,6 +178,13 @@
 ![](cxjPassengerDesign/merchantPart/RedPacket.png "Taxi：OnlinePayment")![](cxjPassengerDesign/merchantPart/RedPacketSharing.png  "Taxi：Service Evaluatio") 
 
 红包是无法直接领取，需完成分享助力任务；
+
+### 优惠券
+![](cxjPassengerDesign/merchantPart/Coupons.png "Taxi：OnlinePayment")  ![](cxjPassengerDesign/travellingMode/taxi&net_car/04UseCoupons.png  "Taxi：Service Evaluatio") 
+
+优惠券是通过平台发布给乘客的，用户可用于出租线上支付/快车/闪电送/代驾/顺风车等出行及扩展业务；
+
+    优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
     
     
