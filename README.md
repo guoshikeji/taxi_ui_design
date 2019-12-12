@@ -203,7 +203,7 @@
     优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
 ### 司机端主页
-![](cxjDriverDesign/InitializeHomepage.png "InitializeHomepage")![](cxjDriverDesign/ListeningOrder.png "ListeningOrder")![](cxjDriverDesign/RevenueCenters.png "RevenueCenters") ![](cxjDriverDesign/Me.png "Me")
+![](cxjDriverDesign/InitializeHomepage.png "InitializeHomepage")![](cxjDriverDesign/ListeningOrder.png "ListeningOrder")![](cxjDriverDesign/RevenueCenters.png "RevenueCenters")![](cxjDriverDesign/Me.png "Me")
 
    * 工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
    * 营收中心：工作状态面板、订单列表；
