@@ -16,6 +16,7 @@
 #### 乘客端：
 * [出租车](#出租车)
 * [网约车（快车）](#网约车)
+* [语音呼叫](#语音呼叫)
 * [代驾](#代驾)
 * [闪电送](#闪电送)
 * [商家模块](#商家模块)
@@ -98,6 +99,15 @@
 网约车采取线上计费方式，线上提供计费细则；支付方式只保留线上支付；
 
 ---
+### 语音呼叫
+
+![](cxjPassengerDesign/travellingMode/voiceCall/Listening.png  "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/voiceCall/ChoseEndPoint.png  "Taxi：Service Evaluatio") ![](cxjPassengerDesign/travellingMode/voiceCall/CallTaxiOrNet_Car.png  "Taxi：Service Evaluatio") 
+
+##### 一种特殊的“零”手动操作的叫车方式
+该功能通过人机语音对话的方式来实现立即呼叫出租车和快车；这样的方式可尽量降低智能手机认知困难者放入学习成本；
+ 
+
+---
 ### 代驾
 #### 代驾模式
 ![](cxjPassengerDesign/travellingMode/designatedDriver/DesignatedDriver.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/CallADriver.png "Taxi：Service Evaluatio") 
@@ -106,7 +116,7 @@
 用户填上相应的条件后，进入呼叫页面，在该页面展示了此次代驾服务所需的价钱，亦可添加备注和小费；
  
  #### 呼叫代驾
- ![](cxjPassengerDesign/travellingMode/designatedDriver/OnlinePayment.png "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/calling.png  "Taxi：Service Evaluatio") 
+ ![](cxjPassengerDesign/travellingMode/designatedDriver/OnlinePayment.png  "Taxi：OnlinePayment") ![](cxjPassengerDesign/travellingMode/designatedDriver/calling.png "Taxi：Service Evaluatio") 
 
 代驾服务采取先付费，后叫司机的模式，如呼叫无果，平台将立即返还乘客的付费；
  
