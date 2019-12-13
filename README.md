@@ -26,15 +26,15 @@
 * [优惠券](#优惠券)
 #### 司机端
 * [司机端主页](#司机端主页)
-* [多种订单](#多种订单)
-    * 快车
-    * 出租车
-    * 闪电送
+* [多种订单工作流程](#多种订单工作流程)
+    * [出租车订单](#出租车订单)
+    * [快车订单](#快车订单)
+    * [闪电送订单](#闪电送订单)
     * 代驾
 * [自定义设置](#自定义设置)
 * [深色模式](#深色模式)
-* [服务时长](#服务时长)
-* [收钱吧](#收钱吧)
+* [其他](#其他)
+
 
 ### 乘客端主页
 ![](cxjPassengerDesign/HomePage.png "HomePage")  ![](cxjPassengerDesign/Wallet.png "Wallet")  ![](cxjPassengerDesign/Me.png "Me")
@@ -202,12 +202,55 @@
 
     优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
+---
+
 ### 司机端主页
 ![](cxjDriverDesign/InitializeHomepage.png "InitializeHomepage")![](cxjDriverDesign/ListeningOrder.png "ListeningOrder")![](cxjDriverDesign/RevenueCenters.png "RevenueCenters")![](cxjDriverDesign/Me.png "Me")
 
    * 工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
    * 营收中心：工作状态面板、订单列表；
    * 我的：个人资料、钱包、邀请乘客、SVIP计价器、收钱吧、设置听单项、消息中心、市场管理、异常检测；
+  
+---
+
+## 多种订单工作流程
+
+### 出租车订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(taxi).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(taxi).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(taxi).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/Charge.png "Charge")
+
+执行出租车订单流程：前往乘客上车点 ----> 等待乘客上车 ----> 前往乘客终点 ----> 结束行程并选择收费方式
+
+      因为出租车为打表计费方式，APP内没有计费，所以司机可以根据乘客情况选择线上收费还是线下；
+
+### 快车订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(net_car).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(net_car).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(net_car).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/OtherCharges.png "OtherCharges")
+
+执行快车订单流程：前往乘客上车点 ----> 等待乘客上车 ----> 前往乘客终点 ----> 是否需要添加附加费用 ----> 结束行程并收费
+
+    因为行程计费中没有包括过路费、过桥费等，在结束行程前可加入相关费用；
+
+### 闪电送订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(taxi).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(taxi).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(taxi).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/Charge.png "Charge")
+
+闪电送业务为出租车司机和网约车司机的扩展业务；旨在更高效的利用现有的运输资源，也能为用户提供一个在短途里快速、实惠的快递服务；
+于车主讲，闪电送的订单期间，与其他业务非互斥的，送货时间也相对自由；
+
+
+### 自定义设置
+![](cxjDriverDesign/SettingAboutOrders.png "SettingAboutOrders")  ![](cxjDriverDesign/SettingAboutGuide.png "SettingAboutGuide")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 深色模式
+![](cxjDriverDesign/darkMode/DarkPage01.png " ")![](cxjDriverDesign/darkMode/DarkPage02.png " ")![](cxjDriverDesign/darkMode/DarkPage03.png " ")![](cxjDriverDesign/darkMode/DarkPage04.png " ")
+
+加入深色模式，司机可以自主切换，在晚间使用，可给司机更大的舒适度；
+
+### 其他
+![](cxjDriverDesign/AnomalyDetection.png "AnomalyDetection")![](cxjDriverDesign/Collection.png "Collection")![](cxjDriverDesign/TimeManagement.png "TimeManagement")![](cxjDriverDesign/SharingInvitations.png "SharingInvitations")
+
+异常检测：用于APP的自我检测，出现使用异常时，更加及时的解决；时长管理和邀请乘客：工作和发展新用户两不误，一个小的奖励机制；
+收钱吧：车主可以在日常收款使用的小工具，收款方式多样、直达银行；
 
     
 
