@@ -26,15 +26,15 @@
 * [优惠券](#优惠券)
 #### 司机端
 * [司机端主页](#司机端主页)
-* [多种订单](#多种订单)
-    * 快车
-    * 出租车
-    * 闪电送
-    * 代驾
+* [多种订单工作流程](#多种订单工作流程)
+    * [出租车订单](#出租车订单)
+    * [快车订单](#快车订单)
+    * [闪电送订单](#闪电送订单)
+    * [代驾订单](#闪电送订单)
 * [自定义设置](#自定义设置)
 * [深色模式](#深色模式)
-* [服务时长](#服务时长)
-* [收钱吧](#收钱吧)
+* [其他](#其他)
+
 
 ### 乘客端主页
 ![](cxjPassengerDesign/HomePage.png "HomePage")  ![](cxjPassengerDesign/Wallet.png "Wallet")  ![](cxjPassengerDesign/Me.png "Me")
@@ -202,12 +202,47 @@
 
     优惠券有使用有时间、业务类型、额度的限制，与代步券同级，不可同时使用；
 
+---
+
 ### 司机端主页
 ![](cxjDriverDesign/InitializeHomepage.png "InitializeHomepage")![](cxjDriverDesign/ListeningOrder.png "ListeningOrder")![](cxjDriverDesign/RevenueCenters.png "RevenueCenters")![](cxjDriverDesign/Me.png "Me")
 
    * 工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
    * 营收中心：工作状态面板、订单列表；
    * 我的：个人资料、钱包、邀请乘客、SVIP计价器、收钱吧、设置听单项、消息中心、市场管理、异常检测；
+  
+---
+
+## 多种订单工作流程
+
+### 出租车订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(taxi).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(taxi).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(taxi).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/Charge.png "Charge")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 快车订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(net_car).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(net_car).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(net_car).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/OtherCharges.png "OtherCharges")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 闪电送订单
+![](cxjDriverDesign/workingProcess/GoToTheStaringPoint(taxi).png "GoToTheStaringPoint")![](cxjDriverDesign/workingProcess/WaitingThePaseenger(taxi).png "WaitingThePaseenger")![](cxjDriverDesign/workingProcess/GoToTheEndingPoint(taxi).png "GoToTheEndingPoint")![](cxjDriverDesign/workingProcess/Charge.png "Charge")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 自定义设置
+![](cxjDriverDesign/SettingAboutOrders.png "SettingAboutOrders") ![](cxjDriverDesign/SettingAboutGuide.png "SettingAboutGuide")
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 深色模式
+![](cxjDriverDesign/darkMode/DarkPage01.png " ") ![](cxjDriverDesign/darkMode/DarkPage02.png " ")![](cxjDriverDesign/darkMode/DarkPage03.png " ")![](cxjDriverDesign/darkMode/DarkPage04.png " ")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
+
+### 其他
+![](cxjDriverDesign/AnomalyDetection.png "AnomalyDetection")  ![](cxjDriverDesign/TimeManagement.png "TimeManagement")  ![](cxjDriverDesign/Collection.png "Collection")![](cxjDriverDesign/SharingInvitations.png "SharingInvitations")
+
+工作台：通知消息、基础工作信息面板、听单、接单以及闪电送的入口；
 
     
 
