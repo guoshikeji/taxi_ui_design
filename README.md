@@ -37,6 +37,7 @@
 * [深色模式](#深色模式)
 * [其他](#其他)
 
+![](%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg "软件架构图")
 
 ### 乘客端主页
 ![](cxjPassengerDesign/HomePage.png "HomePage")  ![](cxjPassengerDesign/Wallet.png "Wallet")  ![](cxjPassengerDesign/Me.png "Me")
